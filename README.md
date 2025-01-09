@@ -1,50 +1,65 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with TypeScript and Vite for optimal development experience.
 
-Currently, two official plugins are available:
+## 🚀 Quick Start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install dependencies:
 
-## Expanding the ESLint configuration
+npm install
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Project Structure
 
-- Configure the top-level `parserOptions` property like this:
+root/
+├── src/ # Source files
+├── public/ # Static assets
+├── dist/ # Build output
+├── vite.config.ts # Vite configuration
+├── eslint.config.js # ESLint configuration
+└── tsconfig.json # TypeScript configuration
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠 Available Scripts
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+npm run dev - Start development server with hot reload
+npm run build - Build for production
+npm run lint - Run ESLint checks
+npm run preview - Preview production build locally
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🔧 Tech Stack
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+React 18
+TypeScript
+Vite
+ESLint with TypeScript support
+React Fast Refresh for HMR
+
+## ⚙️ Configuration
+
+The project uses:
+
+Vite for blazing fast development and optimized builds
+ESLint with TypeScript and React specific rules
+TypeScript for type safety
+
+## 🧩 ESLint Setup
+The project includes a robust ESLint configuration with:
+
+TypeScript support
+React Hooks rules
+React Refresh rules
+Browser environment globals
+
+## 🔄 Hot Module Replacement (HMR)
+
+HMR is enabled by default through:
+
+@vitejs/plugin-react for Babel-based Fast Refresh
+ESLint react-refresh plugin for component validation
+
+## 📝 Type Safety
+
+TypeScript is configured for optimal development experience with:
+
+Strict type checking
+React 18 type definitions
+ESLint type-aware rules
