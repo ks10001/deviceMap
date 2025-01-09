@@ -1,65 +1,98 @@
-# React + TypeScript + Vite
+<div align="center">
+  <h1>⚛️ React + TypeScript + Vite</h1>
+  <p>Modern, Fast, Type-Safe React Development</p>
+</div>
 
-A modern React application built with TypeScript and Vite for optimal development experience.
+<div align="center">
+
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Vite](https://img.shields.io/badge/Vite-5-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+</div>
+
+---
+
+## ✨ Features
+
+- 🚀 **Vite** - Lightning fast development & build
+- 📘 **TypeScript** - Type safety and better DX
+- ⚡️ **HMR** - Hot Module Replacement
+- 🧪 **ESLint** - Code quality tools
+- 🎯 **Production Ready** - Optimized build setup
 
 ## 🚀 Quick Start
 
-1. Install dependencies:
-
+1️⃣ Clone and install:
+\`\`\`bash
 npm install
+\`\`\`
 
-## Project Structure
+2️⃣ Start development:
+\`\`\`bash
+npm run dev
+\`\`\`
 
-root/
-├── src/ # Source files
-├── public/ # Static assets
-├── dist/ # Build output
-├── vite.config.ts # Vite configuration
-├── eslint.config.js # ESLint configuration
-└── tsconfig.json # TypeScript configuration
+3️⃣ Build for production:
+\`\`\`bash
+npm run build
+\`\`\`
+
+## 📁 Project Structure
+
+\`\`\`
+.
+├── 📂 src/ # Application source code
+├── 📂 public/ # Static assets
+├── 📂 dist/ # Production build
+├── 📄 vite.config.ts # Vite configuration
+├── 📄 eslint.config.js # ESLint rules
+└── 📄 tsconfig.json # TypeScript settings
+\`\`\`
 
 ## 🛠 Available Scripts
 
-npm run dev - Start development server with hot reload
-npm run build - Build for production
-npm run lint - Run ESLint checks
-npm run preview - Preview production build locally
+| Command             | Description              |
+| ------------------- | ------------------------ |
+| \`npm run dev\`     | Start development server |
+| \`npm run build\`   | Create production build  |
+| \`npm run lint\`    | Run ESLint checks        |
+| \`npm run preview\` | Preview production build |
 
-## 🔧 Tech Stack
+## 🧩 Tech Stack
 
-React 18
-TypeScript
-Vite
-ESLint with TypeScript support
-React Fast Refresh for HMR
+<div align="center">
 
-## ⚙️ Configuration
+| Technology | Purpose      |
+| ---------- | ------------ |
+| React 18   | UI Library   |
+| TypeScript | Type Safety  |
+| Vite       | Build Tool   |
+| ESLint     | Code Quality |
 
-The project uses:
+</div>
 
-Vite for blazing fast development and optimized builds
-ESLint with TypeScript and React specific rules
-TypeScript for type safety
+## ⚙️ Development Features
 
-## 🧩 ESLint Setup
-The project includes a robust ESLint configuration with:
+- **Fast Refresh**: Instant feedback during development
+- **Type Checking**: Catch errors before runtime
+- **Code Quality**: Enforced through ESLint rules
+- **Modern JS**: Latest ECMAScript features
+- **Optimized Builds**: Production-ready bundling
 
-TypeScript support
-React Hooks rules
-React Refresh rules
-Browser environment globals
+## 📚 Learn More
 
-## 🔄 Hot Module Replacement (HMR)
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://react.dev/)
+- [TypeScript Documentation](https://www.typescriptlang.org/)
 
-HMR is enabled by default through:
+## 📝 License
 
-@vitejs/plugin-react for Babel-based Fast Refresh
-ESLint react-refresh plugin for component validation
+MIT © Kevin
 
-## 📝 Type Safety
+---
 
-TypeScript is configured for optimal development experience with:
-
-Strict type checking
-React 18 type definitions
-ESLint type-aware rules
+<div align="center">
+  <sub>Built with ❤️ by Kevin</sub>
+</div>
