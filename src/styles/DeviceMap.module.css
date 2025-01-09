@@ -1,0 +1,30 @@
+.deviceMap {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.devicePopup {
+  padding: 10px;
+}
+
+.statusActive {
+  color: #4caf50;
+  font-weight: 600;
+}
+
+.statusInactive {
+  color: #f44336;
+  font-weight: 600;
+}
+
+.statusMaintenance {
+  color: #ff9800;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .deviceMap {
+    height: calc(100vh - 56px);
+  }
+}
